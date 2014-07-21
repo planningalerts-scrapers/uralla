@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/planningalerts-scrapers/atdisplanningalertsfeed.git
+  revision: 3746885cd541d584892d6a5ff977d952be03274b
+  specs:
+    atdisplanningalertsfeed (0.0.1)
+      atdis
+      scraperwiki-morph
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,6 +45,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
-  atdis
-  scraperwiki-morph
+  atdisplanningalertsfeed!
