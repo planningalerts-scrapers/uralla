@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/LoveMyData/horizon_xml.git
+  revision: 85cdeefaeea412a348de78edac49a225423170e1
+  branch: master
+  specs:
+    horizon_xml (1.0.3)
+      mechanize
+
+GIT
   remote: https://github.com/openaustralia/scraperwiki-ruby.git
   revision: fc50176812505e463077d5c673d504a6a234aa78
   branch: morph_defaults
@@ -45,8 +53,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mechanize
+  horizon_xml!
   scraperwiki!
+
+RUBY VERSION
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.15.1
